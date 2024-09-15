@@ -1,7 +1,5 @@
 FROM tutum/lamp
 
-MAINTAINER Daniel Romero <infoslack@gmail.com>
-
 ENV VERSION 1.9
 
 RUN rm -rf /app && \
